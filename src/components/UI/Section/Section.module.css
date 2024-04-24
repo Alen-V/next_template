@@ -1,0 +1,33 @@
+.wrapper {
+    padding-inline: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .wrapper {
+        padding-inline: 40px;
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .wrapper {
+        padding-inline: 60px;
+        padding-top: 60px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .wrapper {
+        padding-inline: 80px;
+        padding-top: 80px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wrapper {
+        padding-inline: 100px;
+        padding-top: 100px;
+    }
+}

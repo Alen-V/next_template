@@ -1,5 +1,5 @@
-import { Button } from "./Button/Button";
 import { Input } from "./Input/Input";
 import { Typography } from "./Typography/Typography";
+import { Section } from "./Section/Section";
 
-export { Button, Input, Typography };
+export { Input, Typography, Section };
