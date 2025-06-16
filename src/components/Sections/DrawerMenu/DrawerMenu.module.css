@@ -1,0 +1,50 @@
+.drawer_menu {
+    position: fixed;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    animation: SlideIn 0.5s ease-in 1;
+    animation-fill-mode: forwards;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@keyframes SlideIn {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+}
+
+@media (min-width: 600px) {
+    .drawer_menu {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .drawer_menu {
+        padding: 60px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .drawer_menu {
+        padding: 80px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .drawer_menu {
+        padding: 100px;
+    }
+}
